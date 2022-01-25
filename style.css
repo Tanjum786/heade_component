@@ -4,26 +4,29 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-.allcontainer{
+
+.allcontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.box1{
+
+.box1 {
     width: 45%;
-    height:20rem;
-    overflow-x:hidden;
-    overflow-y:scroll;
-    box-shadow:4px 1px gray;
-    border-top: 3px solid grey ;
-    border-left: 3px solid  gray;
+    height: 20rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 4px 1px gray;
+    border-top: 3px solid grey;
+    border-left: 3px solid gray;
     margin-bottom: 40px;
 
 }
-.navigation{
+
+.navigation {
     display: flex;
     flex-wrap: wrap;
-    background-color:blueviolet;
+    background-color: blueviolet;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -32,66 +35,80 @@ body {
     justify-content: space-between;
 
 }
-.text{
+
+.text {
     margin-top: 2rem;
 }
-i{
+
+i {
     color: white;
 }
-.left_side_div{
+
+.left_side_div {
     margin-right: 2rem;
 }
-.fas{
+
+.fas {
     margin: 0 1.5rem;
     cursor: pointer;
 }
-.right_side_div{
-    margin-left:-2rem;
+
+.right_side_div {
+    margin-left: -2rem;
 }
-.fixed{
-    position:sticky;
+
+.fixed {
+    position: sticky;
     top: 0px;
     width: 95%;
 }
-.fixed_div{
-    margin-right:-1rem;
+
+.fixed_div {
+    margin-right: -1rem;
 }
-.dense{
+
+.dense {
     padding: 1rem;
 }
-.text1{
-    margin-top:4rem;
+
+.text1 {
+    margin-top: 4rem;
     margin-right: 15rem;
     font-size: 20px;
 }
-.fix{
-    position:sticky;
+
+.fix {
+    position: sticky;
     top: 0px;
 
 }
-.nav{
+
+.nav {
     display: flex;
     width: 15%;
-    height:25px;
+    height: 25px;
     border-bottom-right-radius: 2rem;
 }
 
-.ic{
+.ic {
     margin-top: -20px;
-    padding-left:2rem;
+    padding-left: 2rem;
 }
-.nav_short{
+
+.nav_short {
     position: sticky;
-    top:0;
+    top: 0;
 }
-.short .nav_short{
+
+.short .nav_short {
     position: sticky;
     top: 0;
     display: flex;
     width: 15%;
-    height:25px;
+    height: 25px;
     border-bottom-right-radius: 2rem;
 }
-section{
+
+section {
     font-size: 80px;
 }
