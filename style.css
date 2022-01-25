@@ -8,9 +8,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    
-
-
 }
 .box1{
     width: 45%;
